@@ -1,0 +1,39 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    background-color: #fff;
+    color: darkblue;
+    padding: 15px;
+    text-align: center;
+    margin-top: 5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 5px 5px 230px #1fa31c inset; /* 5px blur radius */
+
+}
+
+/* Social media links */
+.social-icons {
+    color: white;
+    margin-top: 0px;
+}
+
+.social-icons a {
+    color: #00a859;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Address and open hours */
+.address {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+/* Copyright text */
+.copyright {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+.reception-container{
+    display: flex;
+    height: calc(100vh - 5px); 
+}
+.reception-sidebar {
+
+    background-color:#0c4a1cae ;
+    color: #e5ec5e;
+    width: 290px;
+    overflow-y: auto;
+    padding: 20px;
+    border-top-right-radius: 5px;
+}
+.h1receptiondashboard {
+    margin: 10px 10px 130px 10px;
+    font-size: 1.7rem;
+}
+
+.reception-sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.reception-sidebar nav ul li {
+    margin-bottom: 15px; /* Increased spacing between list items */
+    /* border-bottom: 1px solid #049312; */
+}
+
+.reception-sidebar nav ul li a {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px; /* Rounded borders */
+    text-decoration: none;
+    color: #cdf169;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.reception-sidebar nav ul li a:hover {
+    background-color: #659765; /* Darker background on hover */
+}
+
+.reception-sidebar nav ul li a i {
+    margin-right: 10px;
+}
+
+/* Add space between heading and first list item */
+.reception-sidebar nav ul li:first-child {
+    margin-top: 2px;
+}
+
+/* Add space between last list item and bottom */
+.reception-sidebar nav ul li:last-child {
+    margin-bottom: 25px;
+}
+
+
+.reception-sidebar nav ul .submenu {
+    padding-left: 20px; /* Add indentation for submenu items */
+    display: block;
+}
+
+.reception-sidebar nav ul .submenu.active {
+    display: block; /* Show submenu when active */
+}
+
+.reception-sidebar nav ul .submenu li {
+    margin-bottom: 5px; /* Adjust spacing between submenu items */
+}
+
+.reception-sidebar nav ul .parent-link {
+padding: 0px;
+}

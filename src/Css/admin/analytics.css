@@ -1,0 +1,78 @@
+.Analysis-grid-container {
+    position: relative;
+    margin: 4px;
+    margin-bottom: 0;
+    padding: 0px 50px;
+    padding-top: 10px;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr);  */
+    width: 1225px;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .Analysis-grid-container2 {
+    margin: 0px;
+    padding: 0px 50px;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr);  */
+    width: 1225px;
+    height: 50%;
+    background-color: rgb(245, 238, 225);
+    border-radius: 5px;
+  }
+.Analysis-card {
+    color: #01fb16;
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: black;
+    padding: 45px;
+    padding-top: 5px;
+    border-radius: 8px;
+    /* box-shadow: 25px 25px 300px rgba(39, 4, 135, 0.875) inset; */
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 5px;
+    margin-top: 0;
+
+  }
+  .Analysis-card2 {
+    color: black;
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #eef8ef;
+    padding: 45px;
+    padding-top: 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(5, 93, 30, 0.875) ;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 10px;
+    margin-top: 10%;
+
+  }
+  .Analysis-card2 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgb(10, 38, 61);
+    box-shadow: 5px 5px 30px rgba(39, 4, 135, 0.875) inset;
+    
+  } 
+  .Analysis-card h4 {
+    color: #ddd;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  canvas {
+    
+    height: 150px;
+    width: 250px;
+    padding-top: 1px;
+  }
+  

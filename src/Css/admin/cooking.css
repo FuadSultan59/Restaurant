@@ -1,0 +1,190 @@
+.cooking-container{
+    background-color: #fff;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    overflow: auto;
+    color: white;
+    padding: 5% 2%;
+    margin-left:5px; 
+    width: 80vw;
+    height:calc(100vh - 5px);
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.cooking-left {
+    width: 30%; 
+    height: calc(90vh - 10px);
+    background-color: #eaece4 ;    
+    border-radius: 2%;
+    box-shadow: 2px 2px 25px #e3f8de ; /* 5px blur radius */
+    padding: 2%;
+
+
+}
+.cooking-left h1 {
+    text-align: center;
+    color: #0b7f4d ;
+    font-weight: bolder;
+    margin: 3%;
+    margin-bottom: 20px;
+
+}
+.cooking-left ul {
+    list-style-type: none;
+}
+
+.cooking-left li {
+    color: aliceblue;
+    background-color: #0b7f4d;
+    box-shadow: 2px 2px 25px #c2c7c0 ;
+    width: 93%;
+    height: auto;
+    min-height: 55px;
+    margin: 3%;
+    margin-top: 5%;
+    padding: 3%;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    animation: fadeInBottomLeft 1s;
+
+}
+.cooking-left li:hover{
+    background-color: #156242;
+}
+.cooking-right {
+    width: 70%; 
+    height: calc(90vh - 10px);
+    background-color: #dfe3d5;    
+    border-radius: 2%;
+    padding: 3%;
+    padding-top: 0%;
+    margin-left: 10px;
+}
+.cooking-right h1 {
+    text-align: center;
+    color: #0b844c;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 3%;
+    margin-bottom: 5%;
+}
+
+.cookinglistdiv {
+    width: 100%;
+    margin-bottom: 35%;
+    overflow-y: auto; /* Add vertical scroll if content exceeds 400px */
+    max-height: 500px;
+  }
+.cooking-right p {
+    background-color: #0b7f4d;
+    color: aliceblue;
+    box-shadow: 2px 2px 25px #c2c7c0 ;
+    width: auto;
+    min-width: 48.5%;
+    max-height: 45px;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 2px 15px #0b7f4d ;  
+
+}
+.cookingleft-div{
+    width: auto;
+    min-width: 55%;
+    height: auto;
+    min-height: 400px;
+    max-height: 420px;
+    background-color: #e8eddb;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #62674b ;  
+    margin-right: 9px;
+    padding: 2%;
+    overflow-y: auto; /* Add vertical scroll if content exceeds 400px */
+
+
+}
+.cookingleftorder-div{
+    width: auto;
+    min-width: 55%;
+    height: auto;
+    max-height: 310px;
+    background-color: #dee3b4; 
+    overflow-y: auto; /* Add vertical scroll if content exceeds 400px */
+
+}
+.cookingright-div{
+    width: auto;
+    min-width: 45%;
+    height: auto;
+    min-height: 400px;
+    background-color: #e8eddb;
+    border-radius: 10px;
+    padding: 1%;
+    padding-top: 2%;
+    box-shadow: 2px 2px 10px #62674b ;  
+
+}
+
+.cooking-div{
+    display: flex; 
+    justify-content: start; 
+    align-items: start; 
+    margin-top: 40px;
+}
+.cooking-div p {
+    
+    background-color: #0b7f4d;
+    color: aliceblue;
+    width: auto;
+    min-width: 46%;
+    margin-top: 10px;
+    display: block;
+}
+.cooking-div h2{
+    text-align: center;
+    color: #0b7f4d;
+    
+}
+.cooking-div li {
+
+    background-color: #0b7f4d;
+    color: aliceblue;
+    box-shadow: 2px 2px 25px #c2c7c0 ;
+    width: 93%;
+    height: auto;
+    min-height: 45px;
+    margin: 3%;
+    margin-top: 5%;
+    padding: 3%;
+    align-items: end;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
+
+}
+.ready-btn {
+
+    margin-top: 40%;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(4, 117, 4);
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.ready-btn:hover{
+    box-shadow: 2px 2px 15px #0c1e17 inset ;  
+    background-color: #0b844c;
+}
